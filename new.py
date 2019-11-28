@@ -54,6 +54,13 @@ def findGCD(b, a):
     return x0
 
 
+#Euclidean
+def Euclidean(x, y):
+    while (y):
+        x, y = y, x % y
+    return x
+
+
 #Ma hoa
 def encrypt(str, a, b, m):
     r = ""
